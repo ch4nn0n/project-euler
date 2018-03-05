@@ -6,6 +6,11 @@
 var solution = function(n) {
     var sum = 0;
 
-    i
+    for (var i = 0; i < n; n++) {
+        if (i % 3 === 0 || i % 5 === 0)
+            sum += i;
+    }
 };
+
+console.log(solution(10));
 
